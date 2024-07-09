@@ -1,0 +1,7 @@
+objects-->
+An object is an entity with a state and activity, such as a chair, bike, table, automobile, marker, pen, etc. It can be tangible or immaterial (logical or physical). The banking system is an illustration of an intangible entity.
+class ->
+
+A class is a collection of objects with shared characteristics. It serves as a model or blueprint for the creation of items. It makes sense as an entity. It cannot be corporeal.
+In Java, a class can include:
+    The menu items "Fields," "Methods," "Constructors," "Blocks," and "Nested class and interface"
