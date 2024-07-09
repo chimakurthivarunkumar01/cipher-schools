@@ -1,0 +1,24 @@
+abstract class Car{
+int maxSpeed;
+abstract void accelerate();
+abstract void broke();
+
+}
+abstract class BMW extends Car{
+void accelerate(){
+System.out.println("BMW is accelerating");
+}
+}
+class BMW extends BMW{
+void broke(){
+System.out.println("BMW is applying Brakes");
+}
+}
+
+public class AbstractStudy{
+public static void main(String[] args){
+BMW breezer = new BMW();
+breezer.accelerate();
+
+}
+}
